@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+echo -e "eneter name of the directory: \c"
+read dir
+ls $dir | while read p
+do
+echo $p
+done < $dir
